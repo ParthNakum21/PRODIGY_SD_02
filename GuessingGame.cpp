@@ -24,6 +24,7 @@ int main(){
     srand(time(0));
     int number = rand() % 100 + 1;
     int count = 1;
+    cout << "This is Guessing Game. \nGuess the number in between 1 to 100\n";
     int attempts = numberOfAttempts(number, count);
 
     cout << "Congratulations! You've guessed the correct number in " << attempts << " attempts!\n";
